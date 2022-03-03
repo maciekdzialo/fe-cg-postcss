@@ -78,4 +78,9 @@ export const courseData = [
     contentText: "TO TYLE 🥱",
     class: "End",
   },
+  {
+    title: "Zadanie dla chętnych",
+    contentText: "Homework",
+    class: "Homework",
+  },
 ];

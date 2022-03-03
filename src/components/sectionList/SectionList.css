@@ -53,4 +53,8 @@
   & .SectionList__end {
     background-color: var(--endSection);
   }
+
+  & .SectionList__homework {
+    background-color: var(--homeworkSection);
+  }
 }
