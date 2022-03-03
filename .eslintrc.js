@@ -41,7 +41,11 @@ module.exports = {
     "import/prefer-default-export": [0],
     "import/no-extraneous-dependencies": [
       "error",
-      { devDependencies: false, optionalDependencies: false, peerDependencies: false },
+      {
+        devDependencies: [".storybook/**", "stories/**"],
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
     ],
     "import/no-cycle": [0],
     "react/prop-types": [0],

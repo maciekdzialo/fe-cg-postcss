@@ -1,6 +1,10 @@
 .Content {
   & .Content__text {
-    @mixin h20;
+    @mixin h30;
+
+    @media (--desktop) {
+      @mixin h20;
+    }
     white-space: pre-wrap;
   }
 }

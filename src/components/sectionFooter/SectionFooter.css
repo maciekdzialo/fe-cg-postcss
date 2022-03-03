@@ -10,18 +10,16 @@
     flex: 1;
     display: flex;
     justify-content: space-between;
-    padding: 0 256px;
+    padding: 0 64px;
+
+    @media (--desktop) {
+      padding: 0 256px;
+    }
   }
 
   & .SectionFooter__linkIcon {
-    & svg {
-      width: 44px;
-      height: 44px;
-      stroke: var(--textColor);
-
-      & path {
-        fill: var(--textColor);
-      }
-    }
+    width: 48px;
+    height: 48px;
+    stroke: var(--textColor);
   }
 }

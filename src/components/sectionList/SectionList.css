@@ -22,7 +22,11 @@
   }
 
   & .SectionList__media {
-    background-color: var(--mediaSection);
+    background-color: var(--mediaMobileSection);
+
+    @media (--desktop) {
+      background-color: var(--mediaSection);
+    }
   }
 
   & .SectionList__nesting {

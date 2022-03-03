@@ -1,4 +1,9 @@
 .Header {
-  @mixin h10;
+  @mixin h40;
+  margin-top: 64px;
   @mixin lineUnder 24px, var(--textColor), 75%, 0, 3px;
+
+  @media (--desktop) {
+    @mixin h10;
+  }
 }
