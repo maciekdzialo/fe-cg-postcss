@@ -9,6 +9,10 @@ module.exports = {
       importFrom: "src/static/styles/media.css",
     },
     "postcss-nesting": true,
+    "postcss-dark-theme-class": {
+      darkSelector: '[data-theme="dark"]',
+      lightSelector: '[data-theme="light"]',
+    },
     autoprefixer: true,
   },
 };

@@ -1,0 +1,56 @@
+.SectionList {
+  @mixin fullParentSize;
+
+  & .SectionList__introduction {
+    background-color: var(--introductionSection);
+  }
+
+  & .SectionList__agenda {
+    background-color: var(--agendaSection);
+  }
+
+  & .SectionList__definition {
+    background-color: var(--definitionSection);
+  }
+
+  & .SectionList__normalize {
+    background-color: var(--normalizeSection);
+  }
+
+  & .SectionList__mixins {
+    background-color: var(--mixinsSection);
+  }
+
+  & .SectionList__media {
+    background-color: var(--mediaSection);
+  }
+
+  & .SectionList__nesting {
+    background-color: var(--nestingSection);
+  }
+
+  & .SectionList__autoprefixer {
+    background-color: var(--autoprefixerSection);
+  }
+
+  & .SectionList__summary {
+    background-color: var(--summarySection);
+  }
+
+  & .SectionList__bem {
+    background-color: var(--bemSection);
+  }
+
+  & .SectionList__darkmode {
+    background-color: var(--darkmodeSection);
+    transition: color 200ms, background-color 200ms;
+  }
+
+  & .SectionList__configuration {
+    background-color: var(--configurationSection);
+  }
+
+  & .SectionList__end {
+    background-color: var(--endSection);
+  }
+}

@@ -1,0 +1,20 @@
+.ThemeSwitcher {
+  display: flex;
+  gap: 24px;
+
+  & .ThemeSwitcher__button {
+    @mixin p10;
+    font-weight: bold;
+    border: 3px solid var(--textColor);
+    color: var(--textColor);
+    background-color: transparent;
+    padding: 16px 32px;
+    margin-top: 64px;
+    cursor: pointer;
+    transition: background-color 250ms;
+
+    &:hover {
+      background-color: var(--hoverColor);
+    }
+  }
+}

@@ -1,9 +1,13 @@
 import React from "react";
 
-export const Content: React.FC = ({ children }) => {
+interface ContentProps {
+  text: string;
+}
+
+export const Content: React.FC<ContentProps> = ({ text }) => {
   return (
     <div className="Content">
-      <span>{children}</span>
+      <span className="Content__text">{text}</span>
     </div>
   );
 };

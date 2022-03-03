@@ -1,0 +1,11 @@
+.Section {
+  @mixin fullParentSize;
+  @mixin flexCenter;
+  position: relative;
+
+  & .Section__content {
+    @mixin fullParentSize;
+    flex-direction: column;
+    padding: 0 256px;
+  }
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import { SectionList } from "../../components/sectionList/SectionList";
 
 export const App = () => {
   return (
     <div className="App">
-      <p className="App_header">Hello</p>
+      <SectionList />
     </div>
   );
 };

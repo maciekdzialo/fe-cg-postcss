@@ -1,0 +1,25 @@
+:root {
+  --introductionSection: #264653;
+  --agendaSection: #2a9d8f;
+  --definitionSection: #e9c46a;
+  --normalizeSection: #f4a261;
+  --mixinsSection: #e76f51;
+  --mediaSection: #e63946;
+  --nestingSection: #a8dadc;
+  --autoprefixerSection: #457b9d;
+  --summarySection: #1d3557;
+  --darkmodeSection: #c9ada7;
+  --configurationSection: #c5ded8;
+  --bemSection: #0077b6;
+  --endSection: black;
+  --textColor: white;
+  --hoverColor: #adb5bd;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --darkmodeSection: #212529;
+    --textColor: #e85d04;
+    --hoverColor: #dee2e6;
+  }
+}

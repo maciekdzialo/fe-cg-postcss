@@ -1,0 +1,26 @@
+@define-mixin fullParentSize {
+  width: 100%;
+  height: 100%;
+}
+
+@define-mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@define-mixin lineUnder $bottomSpacing: 24px, $color: var(--textColor), $width: 60%, $left: 0, $height: 1px {
+  position: relative;
+  display: inline-block;
+  padding-bottom: $bottomSpacing;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: $left;
+    bottom: 0;
+    height: $height;
+    width: $width;
+    background-color: $color;
+  }
+}

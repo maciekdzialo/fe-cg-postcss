@@ -1,0 +1,6 @@
+.Content {
+  & .Content__text {
+    @mixin h20;
+    white-space: pre-wrap;
+  }
+}
